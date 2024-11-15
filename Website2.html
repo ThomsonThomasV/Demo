@@ -1,218 +1,10 @@
-<style>
-    .subscribe_button {
-        background-color: rgb(180, 32, 32);
-        color: white;
-        border: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 16px;
-        padding-right: 16px;
-        border-radius: 2px;
-        cursor: pointer;
-        margin-right: 8px;
-        margin-left: 20px;
-        vertical-align: top;
-    }
-
-    .subscribe_button:hover{
-       /*background-color:rgb(189, 58, 58);*/
-       opacity: 0.8;
-    }
-
-    .subscribe_button:active{
-        /*background-color: rgb(145, 0, 0);*/
-        opacity: 1;
-    }
-
-    .join-button {
-        background-color: white;
-        color: rgb(70, 70, 205);
-        border-color: rgb(88, 88, 252);
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 1.5px;
-        cursor: pointer;
-        margin-right: 8px;
-        margin-left: 20px;
-        padding-top: 9px;
-        padding-bottom: 9px;
-        padding-left: 16px;
-        padding-right: 16px;
-        vertical-align: top;
-        transition: background-color 0.15s,
-            color 0.15s;   
-    }
-
-    .join-button:hover {
-        background-color:  rgb(88, 88, 252);
-        color: white;
-    }
-
-    .tweet-button {
-        background-color: rgb(0, 141, 249);
-        color: white;
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-        text-size-adjust: 25%;
-        font-weight: bold;
-        font-size: 15px;
-        margin-right: 8px;
-        margin-left: 20px;
-        padding-top: 9px;
-        padding-bottom: 9px;
-        padding-left: 16px;
-        padding-right: 16px;
-        vertical-align:top;
-        transition: box-shadow 0.15s;
-    }
-
-    .tweet-button:hover {
-        box-shadow: 0px 1px 8.5px rgba(0, 0, 0, 0.35);
-    }
-</style>    
+<!-- 
 <button class="subscribe_button">Subscribe</button>
 <button class="join-button">Join</button>
 <button class="tweet-button">Tweet</button>
 
+************************************************************************************************
 
-
-<style>
-    .req-no {
-        background-color: black;
-        color: white;
-        border: none;
-        height: 40px;
-        width: 115px;
-        font-size:small;
-        margin-right: 8px;
-        cursor: pointer;
-    }
-
-    .req-no:hover {
-        opacity: 0.8;
-    }
-
-    .cart {
-        background-color: rgb(255, 216, 20);
-        color: black;
-        border: none;
-        height: 40px;
-        width: 195px;
-        border-radius: 20px;
-        font-size:small;
-        margin-left: 8px;
-        margin-right: 8px;
-        font-size: medium;
-        cursor: pointer;
-    }
-    .cart:hover {
-        background-color: rgb(238, 203, 30);
-    }
-
-    .git {
-        background-color: rgb(46, 164, 79);
-        color: white;
-        border: none;
-        height: 40px;
-        width: 115px;
-        border: none;
-        border-radius: 6px;
-        font-size:medium;
-        font-weight: bold;
-        margin-left: 8px;
-        cursor: pointer;
-        transition: box-shadow 0.15s;
-        
-    }
-    .git:hover {
-        box-shadow: 0px 2px 10px rgba(39, 39, 39, 0.35);
-    }
-
-    .boot {
-        background-color: rgb(121, 82, 179);
-        color: white;
-        border: none;
-        height: 40px;
-        width: 115px;
-        border: none;
-        border-radius: 4px;
-        font-size:small;
-        font-weight: bold;
-        margin-left: 8px;
-        cursor: pointer;
-        transition: background-color .15s;
-    }
-    .boot:hover {
-        background-color:  rgb(99, 62, 155);
-    }
-
-    .download {
-        background-color: white;
-        color: rgb(108, 117, 125);
-        border-color: rgb(108, 117, 125);
-        border-style:solid;
-        border-width: .5px;
-        height: 40px;
-        width: 115px;
-        border-radius: 2.5px;
-        font-size:small;
-        font-weight: bold;
-        margin-left: 8px;
-        cursor: pointer;
-        transition: background-color 0.35s, color 0.15s;
-    }
-    .download:hover {
-        color: white;
-        background-color: rgb(122, 127, 131);
-    }
-
-    .linked {
-        background-color: rgb(10, 102, 194);
-        color: white;
-        border: none;
-        height: 40px;
-        width: 275px;
-        margin-top: 8px;
-        border-radius: 20px;
-        font-size:medium;
-        font-weight: bold;
-        margin-left: 8px;
-        margin-right: 8px;
-        font-size: medium;
-        cursor: pointer;
-        transition: background-color 0.2s;
-    }
-
-    .linked:hover {
-        background-color: rgb(6, 73, 139)
-    }
-
-    .save {
-        background-color: white ;
-        color: rgb(10, 102, 194);
-        border-color: rgb(10, 102, 194);
-        border-style: solid;
-        border-width: 1.5px;
-        height: 40px;
-        width: 90px;
-        margin-top: 8px;
-        border-radius: 20px;
-        font-size:medium;
-        font-weight: bold;
-        margin-left: 8px;
-        margin-right: 8px;
-        font-size: medium;
-        cursor: pointer;
-        transition: background-color 0.15s,  border-width 0.05s, box-shadow 0.15s;
-    }
-
-    .save:hover {
-        background-color: rgb(219, 237, 255);
-        border-width: 2px;
-        box-shadow: 1px 0 50px rgba(87, 87, 87, 0.35);
-    }
-</style>
 <button class="req-no">Request now</button>
 <button class="cart">Add to Cart</button>
 <button class="git">Sign up</button>
@@ -221,9 +13,7 @@
 <button class="linked">Apply on company website</button>
 <button class="save">Save</button>
 
-
-
-
+************************************************************************************************
 
 <a class="href" href="https://www.amazon.in" >
     Back to Amazon
@@ -245,109 +35,7 @@
 
 <button class="buy">Buy now</button>
 
-
-<style>
-    
-    .href{
-        color: rgb(2, 119, 119);
-    }
-    .text{
-        font-size: larger;
-        font-weight: bold;
-    }
-    
-    .stock{
-        font-weight: bold;
-        color: green;
-    }
-    .cart{
-        background-color: rgb(255, 216, 20);
-        color: black;
-        border: none;
-        height: 40px;
-        width: 150px;
-        border-radius: 20px;
-        font-size:small;
-        margin-right: 8px;
-        font-size: medium;
-        cursor: pointer;
-    }
-   .cart:hover {
-        background-color: rgb(238, 203, 30);
-    }
-    .cart:active{
-        
-        opacity: 0.7;
-    }
-
-    .buy{
-        background-color: rgb(255, 147, 45);
-        color: black;
-        border: none;
-        height: 40px;
-        width: 150px;
-        border-radius: 20px;
-        font-size:small;
-        margin-left: 4px;
-        margin-right: 8px;
-        font-size: medium;
-        cursor: pointer;
-    }
-   .buy:hover {
-        background-color: rgb(233, 138, 48);
-    }
-    .buy:active{
-        opacity: 0.7;
-    }
-</style>
-
-
-
-
-<style>
-    .back{
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 10px ;
-        padding-bottom:10px ;
-        margin-left: 20px;
-        margin-right: 8px;
-    }
-
-    .next{
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 10px ;
-        padding-bottom:10px ;
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    
-    .href1{
-        margin-left: 8px;
-        margin-right: 8px;
-        text-decoration: underline;
-    }
-
-    .href2 {
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    .href3{
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-
-    .href4{
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    .href5{
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    
-</style>
+************************************************************************************************
 
 <button class="back">Back</button>
 <a class="href1" href="https://www.amazon.in" >1</a>
@@ -357,128 +45,23 @@
 <a class="href5" href="https://www.amazon.in" >5</a>
 <button class="next">Next</button>
 
+************************************************************************************************
 
-<style>
-    .Stretch{
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px ;
-        padding-bottom:5px ;
-        margin-left: 8px;
-        margin-right: 8px;
-        background-color: rgb(0, 110, 0);
-        border: none;
-        color: white;
-        cursor: pointer;
-        transition: padding .55s;
-    }
-
-    .Stretch:hover {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 10px ;
-        padding-bottom:10px ;
-    }
-
-
-</style>
 <button class="Stretch">Stretch</button>
+************************************************************************************************
 
-
-<style>
-    .Shadow{
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px ;
-        padding-bottom:5px ;
-        background-color: rgb(0, 110, 0);
-        border: none;
-        color: white;
-        cursor: pointer;
-        box-shadow: 3px 2px 2px rgba(56, 56, 56, 0.35);
-        transition: margin 0.05s, box-shadow 0.15s;
-    }
-
-    .Shadow:active {
-        margin-left: 1px;
-        margin-top: 1px;
-        margin-bottom: 10px;
-        box-shadow: none;
-    }
-
-
-</style>
 <button class="Shadow">Shadow</button>
 
+************************************************************************************************
 
-
-<style>
-    .One{
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px ;
-        padding-bottom:5px ;
-        margin-left: 5px;
-        margin-right: 5px;
-        background-color: rgb(0, 110, 0);
-        border: none;
-        color: white;
-        cursor: pointer;
-        transition: padding 0.15s, margin 0.15s;        
-    }
-
-    .One:hover {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-
-    .Two{
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px ;
-        padding-bottom:5px ;
-        margin-left: 5px;
-        margin-right: 5px;
-        background-color: rgb(0, 110, 0);
-        border: none;
-        color: white;
-        cursor: pointer;
-        transition: padding 0.15s, margin 0.15s;
-        }
-
-    .Two:hover {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-
-    .Three{
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px ;
-        padding-bottom:5px ;
-        margin-left: 5px;
-        margin-right: 5px;
-        background-color: rgb(0, 110, 0);
-        border: none;
-        color: white;
-        cursor: pointer;
-        transition: padding 0.15s, margin 0.15s;
-        }
-
-    .Three:hover {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-left: 2px;
-        margin-right: 2px;
-    }
-
-
-</style>
 <button class="One">One</button>
 <button class="Two">Two</button>
 <button class="Three">Three</button>
+************************************************************************************************ -->
 
+<!DOCTYPE HTML>
+<html>
+    <head><title>DAY 2</title>
+    <link rel="stylesheet" href="Styles/ALL.css"></head>
+    <Body></Body>
+</html>
