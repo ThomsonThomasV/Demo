@@ -1,0 +1,257 @@
+/* 
+************************************************************************************************
+5.1
+
+p{
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.des{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom:5px;
+}
+
+.views{
+    color: rgb(91, 91, 91);
+}
+.name{
+    color: rgb(91, 91, 91);
+}
+.sub{
+    color: rgb(113, 113, 113);
+    line-height: 22px;
+}
+************************************************************************************************
+5.2
+
+p{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+}
+.promo{
+    font-style: 14px;
+    background-color:  rgb(208, 49, 49);
+    color: white;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.x{
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.x:hover{
+    text-decoration: underline;
+}
+
+************************************************************************************************
+5a
+p{
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: large;
+}
+************************************************************************************************
+5b
+p{
+    font-family: arial;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+}
+
+.tues{
+    font-weight: normal;
+    font-size:small;
+    font-style: italic;
+    color: red;
+}
+************************************************************************************************
+5c
+p{
+    font-family: verdana;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.pro{
+    font-weight: lighter;
+    font-size:small;
+    color: rgb(140, 140, 140);
+    
+}
+
+.in{
+    font-weight: lighter;
+    font-size:small;
+    width: 250px;
+    margin-top: 20px;
+}
+.get{
+    background-color: green ;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5;
+    padding-bottom: 5px;
+    
+}
+.get:hover{
+    cursor: pointer;
+}
+************************************************************************************************
+5.d
+p{
+    font-family: arial;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+}
+
+.tues{
+    font-weight:normal; 
+    font-size: 12px;
+    text-align: center;
+    width: 250px;
+    line-height: 35px;
+}
+
+.more{
+    font-weight:normal; 
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    width: 250px;
+    color: rgb(54, 95, 200);
+}
+
+.more:hover{
+    cursor: pointer;
+}
+
+************************************************************************************************
+5e
+p{
+font-family: arial;
+font-weight: bold;
+font-size: large;
+text-align: center;
+width: 300px;
+margin: 0;
+display: block;
+margin: auto;
+}
+
+.from{
+font-weight:normal; 
+font-size: 12px;
+line-height: 35px;
+}
+
+.new{
+font-size: 12px;
+color: rgb(218, 131, 17);
+}
+
+.pros{
+font-size: x-large;
+line-height: 20px;
+}
+
+.buy{
+font-family: arial;
+background-color: rgb(8, 109, 193) ;
+border: none;
+color: white;
+border-radius: 20px;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 5;
+padding-bottom: 5px;
+display: block;
+margin: auto;
+
+}
+.buy:hover{
+cursor: pointer;
+}
+************************************************************************************************
+5.f
+.container{
+    font-family: arial;
+    line-height:1px;
+    padding: none;
+    margin: none;
+}
+.usd{
+    font-family: arial;
+    color: gray;
+    font-size: x-small;
+}
+
+.today{
+    font-family: arial;
+    color: green;
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.after{
+    font-family: arial;
+    color: rgb(96, 96, 96);
+    font-size: x-small;
+}
+
+.down{
+    font-family: arial; 
+    color: red;
+    font-size: x-small;
+
+}
+************************************************************************************************
+5.g
+
+p{
+    font-family: Arial;
+    width: 500px;   
+}
+.org{
+
+    color: rgb(107, 107, 107);
+}
+
+.twi{
+    color: rgb(26, 155, 230);
+
+}
+************************************************************************************************
+6.a,b,c,d
+
+*/
+.container{
+    font-family: montserrat;
+    text-align: center;
+    line-height: 1px;
+}
+.Model{
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.delivery{
+    text-decoration: underline;
+}
+.delivery:hover{
+    cursor: pointer;
+}
