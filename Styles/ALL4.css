@@ -1,0 +1,296 @@
+/* 
+************************************DAY 4*******************************************************
+4.1
+
+.image{
+    width: 200px;
+    border-radius: 10px;
+
+}
+.image1{
+    width: 200px;
+    height: 200px;
+    object-position: center;
+    object-fit: contain;
+    border:solid;
+    border-color: black;
+
+}
+.image2{
+    width:200px;
+    height: 200px;
+    border-radius : 50%;
+    object-fit: fi;
+
+}
+.search{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 12px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+
+}
+.search1{
+    width: 500px;
+    height: 40px;
+    color: rgb(36, 36, 36);
+    font-size: 17px;
+    border-radius: 50px;
+    margin-left: 12px;
+    border: none;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+    box-shadow: 0px 0px 10px  rgba(174, 174, 174, 0.761);
+}
+
+************************************************************************************************
+4.2
+
+ .Email{
+    color: gray;
+    font-family: arial;
+ }
+ .search2{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(100, 100, 100);
+ }
+ .term{
+    font-size: 13px;
+    color: rgb(94, 94, 94);
+ }
+ .agree{
+    background-color: rgb(49, 121, 193);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 275px;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 20px;
+    font-size:medium;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: medium;
+ }
+
+ ************************************************************************************************
+ 4.3
+
+ .line{
+    display: flex;
+    vertical-align: middle;
+ }
+
+ .image3{
+    width: 50px;
+    height: 50px;
+    border-radius : 50%;
+
+}
+ .search3{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    border: none;
+ }
+
+.x{
+    background-color: rgb(55, 151, 224);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 18px;
+    cursor: pointer;
+    text-size-adjust: 50%;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+ }
+************************************************************************************************
+
+
+4.4
+ .search,.search1{
+    display: block;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 12px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+}
+
+************************************************************************************************
+4.5
+
+.p{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+}
+
+ .Yes,.NO{
+    background-color: rgb(235, 233, 233);
+    font-size: larger;
+    border-radius: 2px;
+    border: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+
+4.6
+
+.image3{
+    display: inline-block;
+    margin-left: 100px;
+}
+.search1{
+    display: block;
+    width: 500px;
+    height: 40px;
+    color: rgb(36, 36, 36);
+    padding-left: 20px;
+    font-size: 17px;
+    border-radius: 50px;
+    margin-left: 12px;
+    border: none;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+    box-shadow: 0px 0px 10px  rgba(174, 174, 174, 0.761);
+}
+    .image3{
+    display: inline-block;
+    margin-left: 100px;
+}
+.search1{
+    display: block;
+    width: 500px;
+    height: 40px;
+    color: rgb(36, 36, 36);
+    padding-left: 20px;
+    font-size: 17px;
+    border-radius: 50px;
+    margin-left: 12px;
+    border: none;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+    box-shadow: 0px 0px 10px  rgba(174, 174, 174, 0.761);
+}
+
+************************************************************************************************
+4.7
+
+.First,.Last{
+    width: 100px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    border-style:solid;
+    border-width: thin;
+    border-color: rgb(148, 148, 148);
+
+}
+
+.Emailbox{
+    display: block;
+    width: 216px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 6px;
+    border-style:solid;
+    border-width: thin;
+    border-color: rgb(148, 148, 148);
+}
+
+.Sign{
+    background-color: rgb(37, 119, 201);
+    color: white;
+    border: none;
+    width: 228px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    font-size:medium;
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: medium;
+}
+
+************************************************************************************************
+
+
+ */
+.ride{
+    font-family: arial;
+    font-size: 30px;
+}
+
+.location,.destination{
+    display: block;
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 300px;
+    font-size:small;
+    margin-bottom: 8px;
+    padding: 10px;
+
+}
+
+.req-no {
+    background-color: black;
+    color: white;
+    border: none;
+    width: 115px;
+    font-size:small;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.Schedule{
+    background-color: rgb(233, 233, 233);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 145px;
+    font-size:small;
+    padding: 10px;
+}
+
+.Sign{
+    background-color: rgb(37, 119, 201);
+    color: white;
+    border: none;
+    width: 228px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    font-size:medium;
+    font-weight: bold;
+    margin-right: 8px;
+    font-size: medium;
+}
