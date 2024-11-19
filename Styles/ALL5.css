@@ -216,8 +216,222 @@ p{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+************************************************************************************************
+5.e
+
+.panel1{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.pro{
+    display: inline-block;
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+p{
+    width: 200px;
+}
+.p,.p1,.p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.p{
+    font-weight: 700;
+    line-height: 25px;
+}
+.p1,.p2{
+    color: gray;
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align:  top;
+    border: none;
+    color: white;
+    background-color: rgb(39, 153, 241);
+    border-radius: 5px;
+    margin-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+************************************************************************************************
+5.f
+
+.panel{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.pro{
+    display: inline-block;
+    object-fit: cover;
+    width: 250px;
+    height: 150px;
+}
+p{
+    width: 200px;
+    padding-left: 10px;
+}
+.p,.p1,.p2{
+    font-family: roboto;
+}
+
+.p{
+    font-weight: 600;
+    padding-bottom: 40px;
+    font-weight: 15px;
+    font-size: 17px;
+    padding-top: 8px;
+    margin-top: 0;
+}
+.p1,.p2{
+    color: gray;
+    line-height: 10px;
+    font-size: 15px;
+}
+ 
+************************************************************************************************
+5.g
+
+ .card{
+    display: inline-block;
+    box-shadow: 1px 1px 20px rgba(36, 32, 32, 0.596);
+    border-radius: 10px;
+    margin-left: 15px;
+    
+ }
+ .info{
+    font-family: roboto;
+    margin-left: 2px;
+    margin-bottom: 8px;
+ }
+ .dp{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+ }
+
+ .name{
+    font-weight: 500;
+    padding-left: 5px;
+ }
+
+ .combine{
+
+ }
+
+ .mudp{
+
+    display: inline-block;
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 5px;
+    margin-right: 2px;
+
+ }
+
+ .friends{
+    color: rgb(105, 104, 104);
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    padding-left: 0px;
+    line-height: 5px;
+    
+ }
+ .button{
+    display: inline-block;
+    background-color: rgb(63, 101, 224);
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 20px ;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+ }
+
  */
 
+ .card{
+    display: inline-block;
+    box-shadow: 1px 1px 20px rgba(36, 32, 32, 0.596);
+    border-radius: 10px;
+    margin-left: 15px;
+    
+ }
+ .info{
+    font-family: roboto;
+    margin-left: 2px;
+    margin-bottom: 8px;
+ }
+ .dp{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+ }
 
- 
- 
+ .name{
+    font-weight: 500;
+    padding-left: 5px;
+ }
+
+ .mudp{
+
+    display: inline-block;
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 5px;
+    margin-right: 2px;
+
+ }
+
+ .friends{
+    color: rgb(105, 104, 104);
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    padding-left: 0px;
+    line-height: 5px;
+    
+ }
+ .button{
+    display: inline-block;
+    background-color: rgb(63, 101, 224);
+    color: white;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 20px ;
+    padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+ }

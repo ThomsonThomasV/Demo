@@ -1,0 +1,192 @@
+/* .search{
+   display: block;
+}
+.thumbnail{
+   width: 100%;
+}
+p{
+   font-size: 100%;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 10px;
+   font-family: Roboto, Arial;
+}
+
+.Title{
+   font-size: 16px;
+   font-weight: 480;
+   line-height: 20px;
+
+}
+
+.Author,.stats{
+   font-size: 100%;
+   color: rgb(96, 96, 96);
+
+}
+
+.resize{
+   width: 100%;
+   border-radius : 50%;
+}
+
+
+ 
+.grid{
+    display: grid ;
+    grid-template-columns: 50px 1fr;
+}
+
+.main-grid{
+   display: grid ;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 16px;
+   row-gap: 40px;
+}
+
+************************************************************************************************
+
+6.1
+ .long{
+   display: grid;
+   grid-template-columns: 200px 75px;
+ }
+ .long1{
+   display: grid;
+   grid-template-columns: 50px 1fr 75px;
+ }
+ .long2{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   column-gap:20px;
+   row-gap:10px;
+ }
+
+************************************************************************************************
+
+6.2
+
+.main-grid{
+   display: grid;
+   grid-template-columns:205px 205px 205px;
+   column-gap: 35px;
+   row-gap: 35px;
+   margin: 20px;
+}
+
+.card{
+   border-radius: 10px;
+   box-shadow: 1px 1px 20px rgba(36, 32, 32, 0.596);
+}
+
+.Info{
+   padding-left: 10px;
+}
+
+.Profile{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+p{
+   font-family: roboto;
+}
+.Name{
+   font-weight: 600;
+   padding-bottom: 10px;
+}
+
+.Mutual-Profile{
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+}
+
+
+.Friends{
+   color: rgb(105, 104, 104);
+   display: inline-block;
+   vertical-align: top;
+   font-size: 13px;
+   padding-left: 0px;
+   line-height: 5px;
+   
+}
+
+.button{
+   display: inline-block;
+   background-color: rgb(63, 101, 224);
+   color: white;
+   border: none;
+   margin-left: 5px;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   padding-left: 20px ;
+   padding-right: 25px;
+   padding-top: 6px;
+   padding-bottom: 8px;
+}
+
+ */
+
+
+.main-grid{
+   display: grid;
+   grid-template-columns:205px 205px 205px;
+   column-gap: 35px;
+   row-gap: 35px;
+   margin: 20px;
+}
+
+.card{
+   border-radius: 10px;
+   box-shadow: 1px 1px 20px rgba(36, 32, 32, 0.596);
+}
+
+.Info{
+   padding-left: 10px;
+}
+
+.Profile{
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+p{
+   font-family: roboto;
+}
+.Name{
+   font-weight: 600;
+   padding-bottom: 10px;
+}
+
+.Mutual-Profile{
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+}
+
+
+.Friends{
+   color: rgb(105, 104, 104);
+   display: inline-block;
+   vertical-align: top;
+   font-size: 13px;
+   padding-left: 0px;
+   line-height: 5px;
+   
+}
+
+.button{
+   display: inline-block;
+   background-color: rgb(63, 101, 224);
+   color: white;
+   border: none;
+   margin-left: 5px;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   padding-left: 20px ;
+   padding-right: 25px;
+   padding-top: 6px;
+   padding-bottom: 8px;
+}
