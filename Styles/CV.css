@@ -1,124 +1,22 @@
 .container{
-    margin-left: 500px  ;
-    display:grid;
+    width: 600px;
+    margin: 100px;
+    border: solid;
     font-family: Nunito;
-}
-.Skills{
-    color: rgb(50, 159, 50);
-    
-    font-size:26px;
-    margin-left: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    line-height: 25px;
+    padding: 50px;
 }
 
-.mail{
-    color: rgb(1, 1, 126);
-    font-size:22px;
-    font-weight: bolder;
-    
-    margin-left: 8px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    text-decoration: underline;
+.job,.skill,.education,.experience,.internet{
+    color: rgb(15, 158, 17);
 }
 
-.name{
-    font-size:48px; 
-    
-    margin-left: 8px;
+p{
+    color: black;
+    font-weight: 550;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
-
-.jtitle{
-    color: rgb(50, 159, 50);
-    font-size:26px; 
-    
-    margin-left: 8px;
-    padding-bottom: 20px;
-}
-
-.house{
-    font-size:22px; 
-    
-    margin-left: 8px;
-    padding-left: 10px;;
-}
-
-.number{
-    font-size:22px; 
-    
-    margin-left: 8px;
-    padding-left: 10px;;
-}
-
-.skll{
-    font-size:22px; 
-    
-    margin-left: 8px;
-    padding-left: 10px;;
-}
-
-.edu{
-    color: rgb(50, 159, 50);
-    font-size:26px; 
-    
-    margin-left: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.clg{
-    font-size:22px; 
-    
-    margin-left: 8px;
-    padding-left: 10px;;
-
-}
-.clg1{
-    font-size:20px; 
-    
-    margin-left: 8px;
-    padding-left: 10px;;
-
-}
-
-.date{
-    font-size:18px; 
-    
-    margin-left: 8px;
-    padding-left: 10px;;
-}
-
-.xp{
-    color: rgb(50, 159, 50);
-    font-size:26px; 
-    
-    margin-left: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.ati{
-    color: rgb(50, 159, 50);
-    font-size:26px; 
-    
-    margin-left: 8px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.git{
-    font-size:22px; 
-    
-    margin-left: 8px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.link{
-    font-size:22px; 
-    
-    margin-left: 8px;
-    padding-top: 10px;
-    padding-left: 10px;
+h2{
+    margin-bottom: 5px;
 }
