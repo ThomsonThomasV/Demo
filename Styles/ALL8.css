@@ -1,0 +1,193 @@
+/*
+8.1
+
+.a{
+    display: flex;
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background-color: lightpink;
+}
+
+.c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    background-color: rgb(222, 222, 222);
+}
+
+p{
+    color: white;
+    background-color: black;
+    margin-top: 0;
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(222, 222, 222)
+} */
+
+
+/* div {
+    font-family: Arial;
+  }
+  
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .inbox-label {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    margin-bottom: 20px;
+  }
+  
+  .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sender-picture-container {
+    margin-right: 10px;
+  }
+  
+  .sender-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+  
+  .email-content {
+    flex: 1;
+  }
+  
+  .email-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+  
+  .sender-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .send-time {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+  }
+  
+  .subject {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .message {
+    color: rgb(120, 120, 120);
+  } */
+
+.container{
+    width: 500px;
+    display: flex;
+}
+.profile{
+    justify-content: end;
+    flex: 1;
+    padding: 10px;
+}
+.mainsplit{
+    display: flex;
+    flex-direction: column;
+    flex:5;
+    margin-left: 0px;
+}
+.split{
+    display: flex;
+}
+.user{
+    font-weight: 550;
+    flex:1;
+}
+.acc{
+    color: rgb(96, 96, 96);
+    flex:2;
+}
+
+
+.dp{
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div{
+    font-family: arial;
+    font-weight: 500;
+}
+.container1{
+    display:flex;
+    width: 340px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(203, 203, 203);
+    margin-top: 10px;
+}
+.gray{
+    border-style:solid;
+    flex: 1;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(203, 203, 203);
+}
+.link{
+    flex: 2;
+    margin: 15px;
+}
+
+.mainlink{
+    color: rgb(131, 131, 131);
+    padding-bottom: 5px;
+    font-weight: 550;
+}
+
+.desc{
+    display: block;
+    font-size:13px;
+    font-weight: 550;
+}
