@@ -1,0 +1,40 @@
+.header{
+    display: block;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+.Sidebar{
+    display: block;
+    position: fixed;
+    background-color: green;
+    color: white;
+    height: 100%;
+    width: 15%;
+    top: 38px;
+}
+.div{
+    position: relative;
+    display: flex;
+    background-color: cadetblue;
+    margin: 100px;
+    height: 250px;
+}
+.abs{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 10px;
+    bottom: 10px;
+}
