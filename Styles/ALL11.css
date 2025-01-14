@@ -1,0 +1,112 @@
+/* 
+.container{
+    position: relative;
+
+}
+.close1{
+    position: absolute;
+    font-size: 12px;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    border-radius: 50%;
+}
+   
+.container{
+    position: relative;
+    height: 3000px;
+
+}
+.close{
+    position: fixed;
+    width: 320px;
+    height: 180px;
+    bottom:10px;
+    right: 10px;
+    background-color: rgb(135, 125, 125);
+}
+
+.close1{
+    position: absolute;
+    font-size: 20px;
+    top: -14px;
+    left: -12px;
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    border-radius: 50%;
+}
+.timestamp{
+    position: absolute;
+    font-size: 12px;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgba(0, 0, 0, 0.64);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+
+*/
+.container{
+    display: inline-block;
+    height: 3000px;
+
+}
+
+.close{
+    position: relative;
+}
+
+.timestamp{
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    right: 0;
+    background-color: rgba(189, 180, 180, 0.64);
+    color: rgb(0, 0, 0);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(217, 217, 217, 0.751);
+    width: 312px;
+    height: 100px;
+    bottom: 3px;
+}
+
+.button{
+    position: absolute;
+    font-size: 20px;
+    top: 250px;
+    right: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border: solid;
+    border-width: thin;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
