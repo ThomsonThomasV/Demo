@@ -347,41 +347,56 @@ body{
  */
 
 .panel{
-   margin-left: 20px;
+   display: block;  
+   width: 300px;
 }
-
- .thumbnail{
+.thumbnail{ 
    position: relative;
-   width: 100%;
-   margin-bottom: 15px;
+   width: 300px;
+   margin-bottom: 11px;
 }
-
-.timstamp{
+.absolute{ 
+   position: relative;
+}
+.timestamp{
    position: absolute;
-   color: white;
-   background-color: black;
-   bottom: 10px;
-   right: 10px;
+   Color: white;
+   background-color: rgba(0, 0, 0, 0.737);
+   bottom: 23px;
+   right: 8px;
+   margin: 0;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   padding-left: 4px;
+   padding-right: 4px;
+   border-radius: 3px;
 }
-
-.Title{
-   font-size: 16px;
-   font-weight: 480;
-   line-height: 20px;
-}
-
-.Author,.stats{
-   font-size: 100%;
-   color: rgb(96, 96, 96);
-}
-
-.resize{
-   width: 100%;
-   border-radius : 50%;
-}
-.grid{
+.info{
    display: grid ;
    grid-template-columns: 50px 1fr;
+}
+.porfilepic{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+.infotxt{
+   margin-top:0 ;
+   margin-left: 4px;
+}
+.title{
+   font-size: 17px;
+   font-weight: 750;
+   margin-bottom: 10px;
+}
+.channelname{
+   font-size: 14px;
+   color: rgb(105, 103, 103);
+   margin-bottom: 5px;
+}
+.time{
+   font-size: 14px;
+   color: rgb(105, 103, 103);
 }
 
 .main-grid{
@@ -396,25 +411,28 @@ body{
 */
 .header{
    height: 55px;
+
    display: flex;
    flex-direction: row;
    justify-content: space-between;
+
    position: fixed;
-   top: 0px;
-   right: 0px;
-   left: 0px;
-   bottom: 0px;
+   top: 0;
+   right: 0;
+   left: 0;
+   z-index: 100;
+
+
    background-color: white;
    border-bottom-width: 1px;
    border-bottom-style: solid;
    border-bottom-color: rgb(222, 222, 222);
 
-
-
 }
 .left{
    display: flex;
    align-items: center;
+   z-index: 100;
 }
 
 .menu{
@@ -453,6 +471,7 @@ body{
    font-size: 16px;
 }
 .searchbut{
+   position: relative;
    width: 66px;
    height: 34px;
    background-color: rgb(229, 229, 229);
@@ -460,25 +479,53 @@ body{
    border-width: 1px;
    border-color: rgb(208, 208, 208);
    margin-left: -2px;
+   cursor: pointer;
+}
+.searchbuttooltip, .voicebuttooltip{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.searchbut .tooltip, .voicebut .tooltip{
+   position: absolute;
+   background-color: grey;
+   color: white;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   border-radius: 2px;
+   font-size: 12px;
+   bottom: -30px;
+   opacity: 0;
+   transition: opacity 0.3s;
+   pointer-events: none;
+   white-space: nowrap;
+}
+.searchbut:hover .tooltip, .voicebut:hover .tooltip{
+   opacity: 1;
+
 }
 
 .searchicon{
-   margin-top: 4px;
    height: 24px;
-   background-color: rgb(229, 229, 229);
 }
+
 .voicebut{
+   position: relative;
    width: 40px;
    height: 40px;
    margin-left: 10px;
    border-radius: 50px;
    border: none;
    background-color: rgb(245, 245, 245);
+   cursor: pointer;
 }
 
 .voiceicon{
    height: 24px;
-   margin-top: 3px;
 }
 
 .right{
@@ -506,6 +553,24 @@ body{
    flex: 1;
    background-color: white;
 }
+
+.notification-icon{
+   position: relative;
+}
+.notification-number{
+   position: absolute;
+   font-family: roboto,arial;
+   font-size: 12px;
+   top: -2px;
+   right: -6px;
+   background-color: rgb(194, 9, 9);
+   color: white;
+   border-radius: 50%;
+   padding-left: 6px;
+   padding-right: 6px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+}
 .chan{
    height: 32px;
    border-radius: 50%;
@@ -514,12 +579,37 @@ body{
 }
 
 .sidebar{
-   background-color: green;
    position: fixed;
+   background-color: white;
    left: 0px;
    bottom: 0px;
    top: 55px;
    width: 80px;
+   z-index: 200;
+   padding-top: 5px;
+}
+.sidebarlink{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 74px;
+   margin-bottom: 1px;
+   cursor: sw-resize;
+   flex-direction: column;
+
+
+}
+.sidebarlink:hover{
+   background-color: rgb(230, 230, 230);
+}
+.sidebarlink img{
+   height: 24px;
+   margin-bottom: 4PX;
+}
+.sidebarlink div{
+   font-family: roboto, arial;
+   font-weight: 600;
+   font-size: 10px;
 }
 
 /* ************************************************************************************************BELOW GENERAL
@@ -534,10 +624,10 @@ p{
 }
 
 body{
-   margin-top: 0;
-   margin-left: 0;
-   margin-right: 0 ;
+   background-color: rgb(248, 248, 248);
+   margin: 0;
    margin-bottom: 1000px;
    padding-top: 70px;
-   padding-left: 80px;
+   padding-left: 96px;
+   padding-right: 24px;
 }
