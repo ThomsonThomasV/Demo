@@ -346,21 +346,21 @@ body{
 }
  */
 
-.panel{
-   display: block;  
+ .panel {
+   display: block;
    width: 300px;
-}
-.thumbnail{ 
+ }
+ .thumbnail {
    position: relative;
    width: 300px;
    margin-bottom: 11px;
-}
-.absolute{ 
+ }
+ .absolute {
    position: relative;
-}
-.timestamp{
+ }
+ .timestamp {
    position: absolute;
-   Color: white;
+   color: white;
    background-color: rgba(0, 0, 0, 0.737);
    bottom: 23px;
    right: 8px;
@@ -370,41 +370,111 @@ body{
    padding-left: 4px;
    padding-right: 4px;
    border-radius: 3px;
-}
-.info{
-   display: grid ;
+ }
+ .info {
+   display: grid;
    grid-template-columns: 50px 1fr;
-}
-.porfilepic{
+ }
+ .porfilepic {
+   display: inline-block;
+   position: relative;
    width: 40px;
    height: 40px;
    border-radius: 50%;
-}
-.infotxt{
-   margin-top:0 ;
+   cursor: pointer;
+ }
+ 
+ .porfilepictooltip1 {
+   position: absolute;
+ }
+ 
+ .porfilepic .tooltip1 {
+   position: absolute;
+   display: flex;
+   width: 200px;
+   border: 10px none;
+   border-radius: 8px;
+   padding: 10px;
+   box-shadow: 0px 0 2cap rgba(0, 0, 0, 0.337);
+   opacity: 0;
+   transition: 0.3s;
+   background-color: white;
+   justify-content: center;
+   align-items: center;
+   bottom: -90px;
+   left: 10px;
+   pointer-events: none;
+ }
+ 
+ .porfilepic:hover .tooltip1 {
+   opacity: 1;
+ }
+ 
+ .infotxt {
+   margin-top: 0;
    margin-left: 4px;
-}
-.title{
+ }
+ .title {
    font-size: 17px;
    font-weight: 750;
    margin-bottom: 10px;
-}
-.channelname{
+ }
+ .channelname {
    font-size: 14px;
    color: rgb(105, 103, 103);
    margin-bottom: 5px;
-}
-.time{
+ }
+ .time {
    font-size: 14px;
    color: rgb(105, 103, 103);
-}
-
-.main-grid{
-   display: grid ;
+ }
+ 
+ .main-grid {
+   display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    column-gap: 16px;
    row-gap: 40px;
-}
+ }
+ 
+ .underline {
+   text-decoration: none;
+   color: black;
+ }
+ 
+ .container {
+   position: absolute;
+   display: flex;
+   border: 10px none;
+   border-radius: 8px;
+   margin: 0;
+   box-shadow: 0px 0 2px rgba(0, 0, 0, 0.337);
+   opacity: 0;
+   transition: 0.03s;
+ }
+ .containerpic {
+     width: 60px;
+     height: 60px;
+     margin-right: 20px;
+     border-radius: 50%;
+ }
+ .containername{
+     font-weight: 700;
+     padding-bottom: 5px;
+ }
+ 
+ .containersub {
+   color: rgb(87, 87, 87);
+ }
+ 
+ .div {
+   font-family: "Courier New", Courier, monospace;
+ }
+ 
+ .tooltip1 {
+   position: relative;
+   z-index: 500;
+ }
+ 
 
 
 /* ABOVE VIDEO************************************************************************************************BELOW HEADER
@@ -432,7 +502,6 @@ body{
 .left{
    display: flex;
    align-items: center;
-   z-index: 100;
 }
 
 .menu{
@@ -442,7 +511,9 @@ body{
 }
 
 .logo{
+   position: relative;
    height: 20px;
+   cursor: pointer;
 }
 
 .middle{
@@ -481,14 +552,17 @@ body{
    margin-left: -2px;
    cursor: pointer;
 }
-.searchbuttooltip, .voicebuttooltip{
+.searchbuttooltip, .voicebuttooltip, .camtooltip, .cattooltip, .notificationtooltip, .chantooltip,
+.logotooltip{
    position: absolute;
    display: flex;
    justify-content: center;
    align-items: center;
+   z-index: 500;
 }
 
-.searchbut .tooltip, .voicebut .tooltip{
+.searchbut .tooltip, .voicebut .tooltip, .cam .tooltip, .cat .tooltip,  .notification .tooltip, .chan .tooltip,
+.logo .tooltip{
    position: absolute;
    background-color: grey;
    color: white;
@@ -503,8 +577,10 @@ body{
    transition: opacity 0.3s;
    pointer-events: none;
    white-space: nowrap;
+   
 }
-.searchbut:hover .tooltip, .voicebut:hover .tooltip{
+.searchbut:hover .tooltip, .voicebut:hover .tooltip, .cam:hover .tooltip, .cat:hover .tooltip, 
+.notification:hover .tooltip, .chan:hover .tooltip, .logo:hover .tooltip{
    opacity: 1;
 
 }
@@ -537,21 +613,26 @@ body{
    flex-shrink: 0;
 }
 .cam{
+   position: relative;
    height: 25px;
    flex: 1;
    background-color: white;
+   cursor: pointer;
 }
 
 .cat{
    height: 25px;
    flex: 1;
    background-color: white;
+   cursor: pointer;
 }
 
 .notification{
+   position: relative;
    height: 25px;
    flex: 1;
    background-color: white;
+   cursor: pointer;
 }
 
 .notification-icon{
@@ -572,10 +653,13 @@ body{
    padding-bottom: 2px;
 }
 .chan{
-   height: 32px;
+   position: relative;
+   width: 30px;
+   height: 30px;
    border-radius: 50%;
-   padding: 20px;
+   margin-left: 10px;
    flex: 1;
+   cursor: pointer;
 }
 
 .sidebar{
@@ -585,8 +669,8 @@ body{
    bottom: 0px;
    top: 55px;
    width: 80px;
-   z-index: 200;
    padding-top: 5px;
+   z-index: 200;
 }
 .sidebarlink{
    display: flex;
@@ -594,10 +678,8 @@ body{
    align-items: center;
    height: 74px;
    margin-bottom: 1px;
-   cursor: sw-resize;
+   cursor: pointer;
    flex-direction: column;
-
-
 }
 .sidebarlink:hover{
    background-color: rgb(230, 230, 230);
@@ -630,4 +712,9 @@ body{
    padding-top: 70px;
    padding-left: 96px;
    padding-right: 24px;
+}
+
+.underline{
+   text-decoration: none;
+   color: black;
 }
