@@ -1,0 +1,126 @@
+.panel {
+  display: block;
+  width: 300px;
+}
+.thumbnail {
+  position: relative;
+  width: 300px;
+  margin-bottom: 11px;
+}
+.absolute {
+  position: relative;
+}
+.timestamp {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.737);
+  bottom: 23px;
+  right: 8px;
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 3px;
+}
+.info {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.porfilepic {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.porfilepictooltip1 {
+  position: absolute;
+}
+
+.porfilepic .tooltip1 {
+  position: absolute;
+  display: flex;
+  width: 200px;
+  border: 10px none;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 0 2cap rgba(0, 0, 0, 0.337);
+  opacity: 0;
+  transition: 0.3s;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  bottom: -90px;
+  left: 10px;
+}
+
+.porfilepic:hover .tooltip1 {
+  opacity: 1;
+}
+
+.infotxt {
+  margin-top: 0;
+  margin-left: 4px;
+}
+.title {
+  font-size: 17px;
+  font-weight: 750;
+  margin-bottom: 10px;
+}
+.channelname {
+  font-size: 14px;
+  color: rgb(105, 103, 103);
+  margin-bottom: 5px;
+}
+.time {
+  font-size: 14px;
+  color: rgb(105, 103, 103);
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.underline {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  border: 10px none;
+  border-radius: 8px;
+  margin: 0;
+  box-shadow: 0px 0 2px rgba(0, 0, 0, 0.337);
+  opacity: 0;
+  transition: 0.03s;
+}
+.containerpic {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.containername{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.containersub {
+  color: rgb(87, 87, 87);
+}
+
+.div {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tooltip1 {
+  position: relative;
+}
