@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f9;
+}
+
+/* Navbar Styles */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #2a2a40;
+  color: white;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#navbar header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#navbar a {
+  display: block;
+  color: #dfdfe2;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+#navbar a:hover {
+  background: #57577d;
+}
+
+/* Main Content Styles */
+#main-doc {
+  margin-left: 270px;
+  padding: 1rem;
+}
+
+.main-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-section header {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2a2a40;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Code Blocks */
+code {
+  display: block;
+  background: #f4f4f9;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-left: 4px solid #2a2a40;
+  font-family: monospace;
+  overflow-x: auto;
+}
+
+/* List Items */
+ul {
+  margin: 1rem 0;
+  padding: 0 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+
+  #navbar a {
+    text-align: center;
+  }
+}
