@@ -1,0 +1,168 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #0074d9;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+#header-img {
+  height: 50px;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 100px 20px 50px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #0074d9;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #005bb5;
+}
+
+/* Features Section */
+#features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature {
+  max-width: 300px;
+}
+
+/* Video Section */
+#video-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pricing Section */
+#pricing {
+  background: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pricing-card {
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#form input[type="email"] {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+#form input[type="submit"] {
+  padding: 10px;
+  background: #0074d9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#form input[type="submit"]:hover {
+  background: #005bb5;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 20px;
+  background: #0074d9;
+  color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .feature-container,
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
