@@ -85,22 +85,19 @@
 
 @keyframes cabins {
   0% {
-    transform: rotate(0deg); /* Start with no rotation */
-    /* No background-color here to avoid jerkiness */
+    transform: rotate(0deg);
   }
   25% {
-    background-color: yellow; /* Change to yellow at 25% of the cycle */
+    background-color: yellow;
   }
   50% {
-    background-color: purple; /* Change to purple at 50% of the cycle */
+    background-color: purple;
   }
   75% {
-    background-color: yellow; /* Change back to yellow at 75% of the cycle */
+    background-color: yellow;
   }
   100% {
-    transform: rotate(
-      -360deg
-    ); /* Complete a full rotation in the opposite direction */
-    background-color: red; /* End with red color */
+    transform: rotate(-360deg);
+    background-color: red;
   }
 }
